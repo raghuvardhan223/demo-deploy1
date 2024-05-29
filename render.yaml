@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: node-backend
+    env: node
+    region: us
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    autoDeploy: true
